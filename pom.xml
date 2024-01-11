@@ -1,0 +1,26 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>edu.scut</groupId>
+  <artifactId>chickmp</artifactId>
+  <packaging>pom</packaging>
+  <version>1.0-SNAPSHOT</version>
+  <modules>
+    <module>chickmp-web</module>
+    <module>chickmp-support</module>
+    <module>chickmp-stream</module>
+    <module>chickmp-service-api</module>
+    <module>chickmp-service-api-impl</module>
+    <module>chickmp-handler</module>
+    <module>chickmp-cron</module>
+    <module>chickmp-common</module>
+  </modules>
+
+  <parent>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-parent</artifactId>
+    <version>2.5.6</version>
+    <relativePath/>
+  </parent>
+
+</project>
